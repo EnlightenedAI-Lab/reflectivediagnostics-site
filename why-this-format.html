@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reflective Diagnostics | Methodology</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="memo-sheet">
+        <header>
+            <div class="brand-block">
+                <h1>Reflective Diagnostics</h1>
+                <span>Methodology Note</span>
+            </div>
+            <div class="meta-block">
+                <div>REF: METHOD-01</div>
+                <div>SUBJECT: ARTIFACT VALIDITY</div>
+            </div>
+        </header>
+
+        <section>
+            <h2>1.0 The Problem with Dashboards</h2>
+            <p>In governance contexts, modern SaaS dashboards present significant liability risks. They are mutable, dependent on vendor uptime, and often obscure the underlying data state behind sleek UIs. A dashboard screenshot is rarely accepted as a primary source in rigorous audits.</p>
+        </section>
+
+        <section>
+            <h2>2.0 The Static Artifact Advantage</h2>
+            <p>We output data as self-contained, single-file HTML artifacts. These files require no internet connection to view, possess no external dependencies, and can be hashed for cryptographic verification.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 40%">Standard Dashboard</th>
+                        <th>Reflective Static Artifact</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Volatile:</strong> Change over time, difficult to reproduce past states.</td>
+                        <td><strong>Immutable:</strong> A frozen snapshot of governance structure at a specific timestamp.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Dependency:</strong> Requires vendor server, login, and subscription to view.</td>
+                        <td><strong>Portable:</strong> Can be emailed, stored on USB, or filed in a Case Management System (CMS).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Opacity:</strong> "Black box" processing hidden behind UI.</td>
+                        <td><strong>Transparency:</strong> Logic and data structure are inspectable within the source code.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>3.0 Scope of Analysis</h2>
+            <p>It is critical to define the boundary of the Structural Assurance module:</p>
+            <div style="background: #eee; padding: 1.5rem; border-left: 4px solid var(--ink-secondary);">
+                <strong>Verification Boundary:</strong>
+                <p style="margin-bottom:0">This tool validates the <em>structure</em> of your argumentation and evidence chains. It does not verify the <em>truth</em> of your premises. It ensures that if your premises are true, your governance conclusion is structurally supported.</p>
+            </div>
+        </section>
+
+        <nav>
+            <a href="index.html">← Return to Overview</a>
+            <a href="#" class="btn-primary">View Example Artifact</a>
+        </nav>
+
+        <footer>
+            &copy; 2026 Reflective Diagnostics. A Division of Enlightened AI.
+        </footer>
+    </div>
+
+</body>
+</html>
